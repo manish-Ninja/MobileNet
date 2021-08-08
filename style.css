@@ -1,0 +1,76 @@
+body 
+{
+   font-family: 'Palette Mosaic', cursive;
+   background-color: rgb(185, 235, 119);
+}
+
+.header_div 
+{
+           background-color: #17c264;
+           color: white;
+           box-shadow: 9px 9px 14px #00ff73;
+}
+
+.header_div img 
+{
+           width: 100px;
+}
+
+.main_div 
+{
+ background-color: #86daabca;
+ padding: 10px;
+ margin-top: 15px;
+ border: 3px solid rgba(204, 218, 15, 0.87);
+ box-shadow: 10px 10px 10px rgba(6, 139, 77, 0.685);
+ border-radius: 5px;
+}
+
+.main_div label 
+{
+/*background:chocolate;*/
+width: 310px;
+padding: 10px;
+box-shadow: 10px 10px 18px rgb(146, 175, 15);
+}
+.main_div button  
+{
+width: 310px;
+font-size: 15px;
+}
+
+.btn-success,.btn-info
+{
+ background-color: #48ff00;
+ box-shadow: 10px 5px 15px#ffee00;
+}
+.footer_div 
+{
+           margin-bottom: 50px;
+}
+.footer_div img  
+{
+ width: 70px;
+}
+.footer_div h4 
+{
+ background-color: #40612d;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 8px 8px 14px rgb(6, 100, 19);
+}
+* 
+{
+           color: #fff;
+         user-select: none;
+}
+.copy_right_footer
+{
+           position: fixed;
+           bottom: 0;
+           width: 100%;
+           line-height: 3;
+           text-align: center;
+           background-color: rgb(150, 207, 96);
+           border: radius 3px;
+}
